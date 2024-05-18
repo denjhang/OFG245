@@ -1,0 +1,87 @@
+#TITLE     OFGM131
+#COPYRIGHT 2014 OffGao
+
+//ドライバを回す速度。n/1000000秒
+#DRVSPEED x4800
+
+//#CHIPは、複数書くと複数音源で鳴らせる。
+#CHIP AY8910,,,4000000
+#CHIP AY8910,,,4000000
+
+#TICK 80
+\\0 ns-2;
+\\A @e{d001ff01ee01|dd01|33100000}q0 @l{0020|ff030107};
+\\B @e{9901|aa059905|661055100000}q0 @l{0008|ff020002010201020002ff02};
+\\C @e{e001ff01e004e404e804ec04|f000|dd01cc10bb100000}q0 @l{0020|ff030107};
+
+\\HEAD T0;
+
+#TRACK 0,1
+\HEAD
+\0l8 o5 v176 q8
+**1
+[6[gcec][gcdc][acfc][gcdc-]]
+[ccrrccc>b gbdbg/bdb facafacagbdbgbdb<]>aba
+/:/:c<c>a<c>][c<c>g<c>]/[c<c>f<c>][c<c>g<c>]][d<c>a<c>][d<c>b<c>]
+/:/:<c>faf][bege]/[adfd][bege]][<c>faf]<c>fbfdg<ce
+*1
+
+
+#TRACK 1,2
+\HEAD
+\0o4\Bl1v240
+**1
+[6edfd]
+[l8ffrrfffe&l1e/de]fedefede agfgagff
+*1
+#TRACK 2,1
+\HEAD
+\0o4\Bl1v240
+**1
+[6cc-dc-]
+[l8ccrrccc>b&l1b/ab<]cccccccc fedefedd
+*1
+
+#TRACK 3,3
+\HEAD
+\0o3\Bl1 v240
+**1
+[6ggag]
+[l8aarraaag&l1g/ff]agfgagfg cccccccc
+*1
+
+#TRACK 4,4
+\HEAD
+\0o3\Bl1 v240
+**1
+[6ba<c>a]<
+[l8eerreeed&l1d/cd]>edcfedcf ed>a<fed>a<b
+*1
+
+
+#TRACK 5,5
+\HEAD
+\0 o2 v192
+**1**2
+l8[6[c<c>g<c>][c-<c->g<c->][d<d>a<d>][>g<<d>g<d>]]
+l8[fr>frfrfr<e2cfed/>d<d>d<d>f<d>efg<d>aba<g>a<g]>/:/:4f<f>][4e<e>][4d<d>]/[4g<g>]][3g<g>]<c<c>>
+l1<fed>g<fedg2>g2<
+*1
+
+#TRACK 6,6
+\HEAD
+\0v208 \Cq1 o3
+**3
+l8
+[7r1]
+**1
+[
+l4gb<l16cdg<cdefa
+l8bb+bg4efg2.def4.ec4>a<cc2.>rgababg4.egbab<c4>bgg1r>]l8gab<cl16defgab<cdl8
+[eerrefe/d2.c>b<c4.>a4ab<c>b4.g4ab<cd]g4.d2
+cdedec4.cdefec4.cdegfe4.cededc4. gfefec4.cdefeg4.[gab<c>b/g4.]<d4.>ab
+<l1c>v+-48b<dc>bg2.v+48l8fefecc4.cdefed4ccc1r>>
+[6r1]
+*1
+
+

@@ -1,0 +1,77 @@
+//OSGS-MML 簡単なサンプル
+
+//にしても、YM2413で効果音作ると、大体パチスロ機の音みたくなるね。
+#CHIP YM2413,,,
+
+//選択できる曲番号の最大数
+#MAXMUSIC 3
+
+
+#MUSIC 0
+
+#TRACK 4,1
+v176 q2 l16 o7 @xf
+**1
+[dcdgrfre r/drcr>ab-a<]decrdef
+gfgb-rargrfgerdefgfgb-rargr>>>aaarrr
+*1
+
+#TRACK 5,2
+v192 q2 l16 o4 @14
+**1
+[4cc<c>c/acfg]gfed
+[ff<f>fb-/fga]agfgggarararcccrrr
+*1
+
+#TRACK 6,3
+v176 q2 l16 o6 @2
+**1
+[ddefb-agfeefgdcd/e]c
+eeag<c>b-ab-agagfedeaaab-rb-rb-r>dddrrr
+*1
+
+#TRACK 7,7
+v255 q2 l16 o3
+**1
+[12errr]errererer<cccrrr
+*1
+
+#TRACK 8,8
+v176 q2 l16 o2
+**1
+[13eeee]rerereeerrr
+*1
+
+#TRACK 9,9
+v255 q2 l16 o2 @c1
+**1
+[6r4grrr]rrrgrgrgrcccrrr
+*1
+
+
+#MUSIC 1
+#TRACK 1,3
+l64 o5
+@12v224
+cdcf;
+#TRACK 2,4
+l64 o5
+@12v224
+>gag<c;
+
+
+#MUSIC 2
+#TRACK 2,1
+v192 l^2 o6
+@2v224
+cdcd12
+;
+
+#MUSIC 3
+#TRACK 3,2
+v192 o3
+@12v224
+[64c^1&ns+1]
+[64c^1&ns+-1]
+;
+

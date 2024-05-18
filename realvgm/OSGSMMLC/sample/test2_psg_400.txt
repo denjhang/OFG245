@@ -1,0 +1,61 @@
+//OSGS-MML 簡単なサンプル
+
+//音源チップの定義。#CHIP 音源名, 詳細値, 音量, 動作クロック
+//音源名以外は省略可能。なお、これを書かないと鳴らない。
+#CHIP AY8910,,,4000000
+
+//選択できる曲番号の最大数
+#MAXMUSIC 3
+
+
+#MUSIC 0           //曲番号定義。これ以降のトラックは、指定した曲番号に対してのトラックとなる
+
+#TRACK 4,1         //トラック定義 #TRACK トラック番号, チャンネル番号
+
+v192 q2 l16 o5     //あとは基本的なMML
+
+**1                //**ラベル名 ：ジャンプラベル定義
+
+[dcdgrfre r/drcr>ab-a<]decrdef
+gfgb-rargrfgerdefgfgb-rargr>>>aaarrr
+
+*1                 //*ラベル名 ：指定のラベルへジャンプ
+
+
+
+#TRACK 5,2
+v208 q2 l16 o2
+**1
+[4cc<c>c/acfg]gfed
+[ff<f>fb-/fga]agfgggarararcccrrr
+*1
+
+#TRACK 6,3
+v192 q2 l16 o4
+**1
+[ddefb-agfeefgdcd/e]c
+eeag<c>b-ab-agagfedeaaab-rb-rb-r>dddrrr
+*1
+
+
+#MUSIC 1
+#TRACK 1,3
+v192 l16 o5
+@1v14
+gegag<g
+;
+
+#MUSIC 2
+#TRACK 2,1
+v192 l^1 o6
+@1v10
+cdcd12
+;
+
+#MUSIC 3
+#TRACK 3,2
+v192 o1
+@x10,12v255
+[64c^2ns+1]
+;
+

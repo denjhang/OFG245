@@ -1,0 +1,53 @@
+//OSGS-MML 簡単なサンプル
+
+//音源チップの定義。#CHIP 音源名, 詳細値, 音量, 動作クロック
+//音源名以外は省略可能。なお、これを書かないと鳴らない。
+#CHIP SN76489,,,
+//#DRVSPEED x8000
+
+//選択できる曲番号の最大数
+#MAXMUSIC 3
+
+
+#MUSIC 0
+#TRACK 4,1
+v192 q2 l16 o5
+**1
+[dcdgrfre r/drcr>ab-a<]decrdef
+gfgb-rargrfgerdefgfgb-rargr>>>aaarrr
+*1
+
+#TRACK 5,2
+v208 q2 l16 o2
+**1
+[4cc<c>c/acfg]gfed
+[ff<f>fb-/fga]agfgggarararcccrrr
+*1
+
+#TRACK 6,3
+v192 q2 l16 o4
+**1
+[ddefb-agfeefgdcd/e]c
+eeag<c>b-ab-agagfedeaaab-rb-rb-r>dddrrr
+*1
+
+
+#MUSIC 1
+#TRACK 1,3
+v192 l16 o5
+gegag<g
+;
+
+#MUSIC 2
+#TRACK 2,1
+v192 l^1 o6
+cdcd12
+;
+
+#MUSIC 3
+#TRACK 0,4
+v192 o1
+@x2v255o4
+[64c^2ns+1]
+;
+

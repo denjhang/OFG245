@@ -1,0 +1,99 @@
+#TITLE     OFGM106 - GassyGaoGao Theme
+#COPYRIGHT 2012,2014 OffGao
+#CHIP AY8910,,,4000000
+
+#TICK 96
+
+\\0 ns0;
+\\1 \0@e{cc01dd01cc01|bb00|0000} @l{0005|ff04 0105|}q1;
+\\2 \0@e{dd01cc02|bb00|0000} @l{0005|ff03 ff02 0102 0102|}q1;
+
+#TRACK 5,1
+\1 o3
+**1
+l32cdefgab-b<q1
+l16c4>a8.<cdrc4>l8a<c>b-afab-g4a4l16f8.agrl32agaal16b-r<crd2r4
+l32q0c-rcrdrerq1[l16f4a8.agr<c4>b-8a/rab-a8f8a8l32ab-agg4]araarrr>>ffrffrrr<<aaraarrr>>eere<
+q0
+*1
+#TRACK 4,2
+\0 @e{ff01|00|0000} ns+12v176*1;
+#TRACK 6,1
+\0 @e{|7700|66180000} r9 *1;
+
+#TRACK 7,2
+\2 o2 q2
+**0
+r4
+**1
+l16q2b+ab+a<f>a<fca+dacf>a<c>a<a>f<f>a<c>f<c>a<f>a<f>a<e>g<e>g<fdf>a<a>a<d>a<a>a<ceaeca>dgb<dgb<dgq1br8.
+l32>defgaa+<cd
+[l16q2d>dfd<d>dfd<e>>a<<g>c/<c>c<e>c<f>>f<a+d<d>>a+<a+f<f>ca+g<e>>l32q1fgaa+<cd]
+l32q1>ea<cea<ceaq2l16[ffrffr8./d>dfb<ar8.]c>>l32q1cdefgaa+<cdefgaa+
+*1
+#TRACK 9,2
+\0 @e{|7700|66180000} r9 *0;
+#TRACK 8,2
+r4\0 o3 @e{|aa00|99010000}
+**1
+q0
+l8f8.c16acafc>a<fc>aa<f4c4l2fefr4l32defgaa+<cd
+l16[[4>b-<d]ce[2eg]ce/[2df][2>b-<d][2cf][2ce]]>
+q1
+l16bbrbbrrr>bbrbbrrr<b-b-rb-b-rrr>ccrccccc
+*1
+
+#TRACK 10,3
+\0 o1 q1 @e{cc02dd03|cc00|77106610000}
+**0
+r4
+**1
+l16f8.c<cr>crfrl8f4cfab-b<c4>c4d<f<d>f>c<e<c>e>g2>g<rrr
+l16[b-8<<dr>>b-8<<dr>>a8<<er>>/a8<<gr>>g8<<fr>>g8<<dr>>b+8<<fr>>c8<<er>>]<c8<<cr>>>
+bbrbbr8.ggrggr8.<ccrccr8.>ccrcc4
+*1
+
+
+#TRACK 11,3
+r4l16
+**1
+@p6r8@p7r[3@p7r]@p6r@p7r[@p6r8][@p7r]@p6r@p7r
+@p6r8@p7r[3@p7r]@p6r@p7r@p6r[3@p7r]@p6r8@p7r@p7r
+[3@p6r8@p7r@p7r/@p6r8@p7r8][[8@p7r32]/@p5r4]
+[7@p6r8@p7r@p7r][8@p7r32][3@p6r8@p7r@p7r][8@p7r32]
+[[@p5r@p5rr]rr@p7r@p7rr@p7r/@p7rrrr][8@p7r32]
+*1
+
+
+
+
+
+
+#TICK 0
+\\1 @e{ff02|00|0000};
+\\2 @e{ff029901|00|0000};
+
+#MUSIC 5
+#TRACK 2,3
+=6,18
+=7,x18
+v224o2a1r2
+=7,x38
+;
+
+#MUSIC 6
+#TRACK 3,3
+=6,26
+=7,x18
+v224o2a1r2
+=7,x38
+;
+
+
+#MUSIC 7
+#TRACK 3,3
+=6,26
+=7,x18
+v192o2a1r1
+=7,x38
+;

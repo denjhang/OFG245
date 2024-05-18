@@ -1,0 +1,10 @@
+//OSGS-MML 簡単なサンプル
+//音を鳴らすのに最低限書かないといけない部分。
+
+//音源チップの定義。#CHIP 音源名, 詳細値, 音量, 動作クロック
+//音源名以外は省略可能。なお、これを書かないと鳴らない。
+#CHIP AY8910,,,4000000
+
+#TRACK 4,1         //トラック定義 #TRACK トラック番号, チャンネル番号
+o4 q2 l16          //o : オクターブ  q : ゲートタイム  l : デフォルト音長
+eddedccefa<c>aaggra>bb<agcceedededed >g<ddedccefa<c>aaggraggraggragagg;

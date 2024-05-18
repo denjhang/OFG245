@@ -1,0 +1,104 @@
+#TITLE     OFGM106 - GassyGaoGao Theme
+#COPYRIGHT 2012,2014 OffGao
+#CHIP YM2413
+
+#TICK 96
+
+#MUSIC 1
+\\0 ns0;
+\\1 \0@e{ff01bb01|ee00|33180000} @l{0005|ff03 ff02 0102 0102|}q0;
+\\2 \0@e{cc02|9900|0000} @l{0005|ff03 ff02 0102 0102|}q1;
+\\3 \0@e{ff01bb01|ee00|33180000} @l{0005|ff03 ff02 0102 0102|}q1;
+
+#TRACK 5,2
+\1 o5 @6 v192
+**1
+l32cdefgab-b<q1
+l16c4>a8.<cdrc4>l8a<c>b-afab-g4a4l16f8.agrl32agaal16b-r<crd2r4v+16
+l32q0c-rcrdrerq1[l16f4a8.agr<c4>b-8a/rab-a8f8a8l32ab-agg4]araarrr>>ffrffrrr<<aaraarrr>>eere<v+-16
+q0
+*1
+#TRACK 15,1
+\3 v160 ns+12 @e{|ff00|ee01bb100000}@l{0201|fe02 0202 0202 fe02|}@3*1;
+
+
+#TRACK 7,3
+\0 o4 @3 q2 v176 q2
+**0
+r4
+**1
+l16q2b+ab+a<f>a<fca+dacf>a<c>a<a>f<f>a<c>f<c>a<f>a<f>a<e>g<e>g<fdf>a<a>a<d>a<a>a<ceaeca>dgb<dgb<dgq1br8.
+l32>defgaa+<cd
+[l16q2d>dfd<d>dfd<e>>a<<g>c/<c>c<e>c<f>>f<a+d<d>>a+<a+f<f>ca+g<e>>l32q1fgaa+<cd]
+l32q1>ea<cea<ceaq2l16[ffrffr8./d>dfb<ar8.]c>>l32q1cdefgaa+<cdefgaa+
+*1
+#TRACK 9,3
+\0 @e{|8800|66180000} @3 r9 *0;
+
+#TRACK 8,4
+\0v196@e{ff01|ee03dd03|880277180000}o5r4r^1
+**1
+q0@8
+l8f8.c16acafc>a<fc>aa<f4c4l2fefr4l32defgaa+<cd
+@10
+l4[>b-<d8.d16c8ec8/d>b-<ec]l16>
+q1
+l16bbrbbrrr>bbrbbrrr<b-b-rb-b-rrr>ccrccccc
+*1
+
+#TRACK 13,5
+\0v196@e{ff01|ee03dd03|880277180000}o5r^1r4
+**1
+q0@8
+l8c8.>a16<f>a<fc>af<c>aff<c4e4l2dcdr<
+@10
+l4[df8.f16e8ge8/fdfe]l16
+q1
+l16ddrddrrr>ddrddrrr<ccrccrrr>eeree4
+*1
+
+#TRACK 10,6
+\0 o3 q1 @10 v224
+**0
+r4
+**1
+l16f8.c<cr>crfrl8f4cfab-b<c4>c4d<f<d>f>c<e<c>e>g2>g<rrrv+16
+l16[b-8<<dr>>b-8<<dr>>a8<<er>>/a8<<gr>>g8<<fr>>g8<<dr>>b+8<<fr>>c8<<er>>]<c8<<cr>>>
+bbrbbr8.ggrggr8.<ccrccr8.>v+-16ccrcc4
+*1
+
+#TRACK 11,4
+r4l16 @c3
+**1
+@p5@p6r8@p7r[3@p7r]@p6r@p7r[@p6r8][@p7r]@p6r@p7r
+@p6r8@p7r[3@p7r]@p6r@p7r@p6r[3@p7r]@p6r8@p7r@p7r
+[3@p6r8@p7r@p7r/@p6r8@p7r8][[8@p7r32]@p5/@p6r4]
+[7@p6r8@p7r@p7r][8@p7r32][3@p6r8@p7r@p7r][8@p7r32]
+[@p5[@p6r@p6rr]rr@p7r@p7rr@p7r/@p7rrrr][8@p7r32]
+*1
+
+
+
+
+
+#TICK 64
+\\1 @e{ff02|00|0000};
+\\2 @e{dd01ee01|ff00|0000};
+
+#MUSIC 5
+#TRACK 2,11
+\2
+o2l^2c&e1;
+
+#MUSIC 6
+#TRACK 0,9
+v192o4c^2r4;
+#TRACK 1,7
+v192o3a4;
+ 
+#MUSIC 7
+#TRACK 0,9
+v160o4c^2r4;
+#TRACK 1,7
+v160o3a4;
+

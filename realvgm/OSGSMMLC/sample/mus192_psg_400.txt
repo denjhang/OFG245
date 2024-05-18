@@ -1,0 +1,362 @@
+#CHIP AY8910,,,4000000
+
+#TICK 96
+\\E1 @e{|bb00|881077100000}@l{0006|fd040304};
+\\E2 @e{cc01|bb00|331011100000}@l{0006|fd02 0302 0202 fe02};
+\\E3 @e{|aa|0000}@l{0006|fd040304};
+
+NO-12
+#MUSIC 0
+#TRACK 15,1
+@p8r1
+**1
+@p2[24r8.]
+@p3[24r8.]
+@p4[24r8.]
+@p5[24r8.]
+@p6[18r8.]
+@p7[14r8.]
+*1
+
+#MUSIC 1
+#TRACK 15,1
+@p8r1
+@p2[24r8.]
+@p3[24r8.]
+@p4[24r8.]
+@p5[24r8.]
+@p6[18r8.]
+@p7[14r8.]
+//@p2[24r8.]
+@p3[24r8.]
+@p4[12r8.]
+@p9
+;
+//--------------------------------------------
+#MUSIC 8
+#TRACK 4,1
+o4 l16 \E1
+f1
+;
+
+#TRACK 5,2
+o4 l16 \E1
+d1
+;
+
+#TRACK 6,3
+o4 l16 \E1
+c1
+;
+
+#TRACK 10,1
+l^4
+**1
+@p11r
+*1
+
+//--------------------------------------------
+#MUSIC 2
+#TRACK 4,1
+o4 l16 \E1
+[
+[
+>b-8<grrrg8>b-</
+>a8<grrrg8>a<
+]
+fg-fe-8dc-c>g
+]
+;
+
+#TRACK 5,2
+o4 l16 \E1
+[4rre-r4.]
+>[3[grf]arr]
+fg-fe-8dc-c>g
+;
+
+#TRACK 6,3
+o4 l16  \E3
+[20rrc]rr>b-
+c>b-<a>gfe>e-dc
+;
+
+
+#TRACK 7,3
+o2 l8. \E1
+[4ce-gafe-]
+;
+
+#TRACK 10,1
+l16
+[7
+@p13rr@p11r
+@p11rr@p11r
+@p12rr@p11r
+]
+@p12rr@p11r
+@p12rr@p11r
+[3@p12r]
+;
+
+//--------------------------------------------
+#MUSIC 3
+#TRACK 4,1
+o4 l16 \E2
+\E1>c8\E2b-<ce-gab-<cl8.dc>b-a8l16b-arrg8fa8b-arfe-8.
+\E1l8.dce-fe-dc4.rl16
+\E2crrg4.
+;
+
+#TRACK 5,2
+o4 l16 \E1
+[4rre-r4.]
+>[3[grf]arr]
+\E2b-rr<e-4.
+;
+
+#TRACK 6,3
+o4 l16 \E3
+[20rrc]rr>b-
+;
+
+
+#TRACK 7,3
+o2 l8. \E1
+[2ce-gafe-]>
+[a-<ce-fd>b-]
+;
+
+#TRACK 10,1
+l16
+[7
+@p13rr@p11r
+@p11rr@p11r
+@p12rr@p11r
+]
+[3@p12rr@p11r]
+;
+
+//--------------------------------------------
+#MUSIC 4
+#TRACK 4,1
+o4 l16 \E2
+>c8b-<ce-gab-<cl8.dc>b-a8l16b-<crrd8e-ab-afdd-c>b-a
+frrl8.ab-<cde-c4.r8.l16crr>b-1
+;
+
+#TRACK 5,2
+o4 l16 \E1
+[4rre-r4.]
+crrl8.e-fgaa-g4.r8.l16grre-1
+;
+
+#TRACK 6,3
+o4 l16 \E3
+[21rrc]
+;
+
+
+#TRACK 7,3
+o2 l8. \E1
+[2ce-gafe-]
+>a-<c>b-<de-fc>b-a<
+l16crr<<c1
+;
+
+#TRACK 10,1
+l16
+[7
+@p13rr@p11r
+@p11rr@p11r
+@p12rr@p11r
+]
+@p12rr@p11r
+@p12rr@p11r
+[3@p12r]
+;
+
+
+//--------------------------------------------
+#MUSIC 5
+#TRACK 4,3
+o4 l16 \E3
+[a8b-a8.g8fa8b-/arfe-8.
+>[drcdrce-8.]]
+<<crde-fg
+>>[e-rde-rdf8.]]
+;
+#TRACK 5,2
+o4l16  v144
+[24d8c]
+;
+
+#TRACK 6,1
+o3 l16 v160
+[[6rra][6rrg]]
+;
+
+
+#TRACK 7,1
+o2 l8.\E1 
+[fa<cdc>b-
+cde-fe-d
+]
+;
+
+#TRACK 10,1
+l16
+**1
+@p14rr@p14r
+*1
+
+
+
+//--------------------------------------------
+#MUSIC 6
+#TRACK 4,3
+o4  \E3
+l8.
+rfgab-<c
+l16
+[4drcdrce-8.]
+;
+
+#TRACK 5,2
+o4l16  v144
+[6e-8f]
+[12f8g]
+
+;
+
+#TRACK 6,1
+o3 l16 v160
+[6rra][12rrg]
+;
+
+
+#TRACK 7,1
+o2 l8.  \E1 
+fgagab-<
+ccc>b-b-b-aaaa-a-a-
+;
+
+#TRACK 10,1
+l16
+**1
+@p14rr@p14r
+*1
+
+
+//--------------------------------------------
+#MUSIC 7
+NO+2
+#TRACK 4,3
+o5 l16 \E3
+[2drcdrce-8.]
+o2l16crr<c2
+b-<c>b-a-fe-dc>b-a-e-c>bb-a
+;
+
+#TRACK 5,2
+o4l16  v160
+[6f8g]
+\E2v240frrf1
+;
+
+#TRACK 6,1
+o3 l16 v160
+[6rrg]
+;
+
+
+#TRACK 7,1
+o2 l8.  \E1 
+aaaaaa
+\E2 v255
+o5l16drrc1
+;
+
+#TRACK 10,1
+l16
+[6@p14rr@p14r]@p12rrr@p12r
+[22@p11r^4];
+
+
+//--------------------------------------------
+NO+-2
+#MUSIC 9
+#TRACK 4,1
+o4 l16 \E2
+frrl8.ab-<cde-[4c2&16]l16crr>>e2.r1
+;
+
+#TRACK 5,2
+o4 \E1
+l16crrl8.e-fgaa-
+g2&16
+e-2&16
+f2&16
+g2&16
+l16err>g2.r1
+;
+
+#TRACK 6,3
+o5 l16 \E3
+[18rrc]
+;
+
+
+#TRACK 7,3
+o3 l8. \E3
+>a-<ce->b-<df
+>a-<ce-a-<ce->>b-<dfb-<df
+l16crr>c2.r1
+;
+
+#TRACK 10,1
+l16
+[5
+@p13rr@p11r
+@p11rr@p11r
+@p12rr@p11r
+]
+[3@p12r@p11r@p11r]
+@p12rrr@p12
+;
+
+
+
+
+NO0
+#TICK 0
+#MUSIC 11
+#TRACK 3,2
+=x6,x08
+=x7,x28
+o8v176c1
+=x7,x38
+;
+#MUSIC 12
+#TRACK 3,2
+=x6,x0c
+=x7,x28
+o3v176c+1
+o3v160c1
+=x7,x38
+;
+#MUSIC 13
+#TRACK 3,2
+=x6,x15
+=x7,x28
+o2v176a1
+o2v160a1
+=x7,x38
+;
+#MUSIC 14
+#TRACK 3,2
+=x6,x03
+=x7,x28
+o8v128e1
+=x7,x38
+;
